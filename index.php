@@ -1,19 +1,34 @@
 <?php
+
+$x = 1;
+$y = 10.5;
+$name = "Prince";
+$is_active = false;
 $fruits = ["apple", "banana", "orange"];
+$fruits = array("apple", "banana", "orange");
+$z = null;
 
+// foreach ($fruits as $arr){
+//     echo "$arr <br>";
+// };
 
-foreach ($fruits as $fruit){
-    echo $fruit. "\n";
-}
+// echo "<br>";
 
+// $a = count($fruits);
 
-for ($i=0; $i < count($fruits); $i++) {
-    echo $fruits[$i]. "\n";
-}
+// for ($i=0; $i < $a; $i++) {
+//     echo $fruits[$i] . " <br>";
+// }
 
+// echo "<br>";
 
-$i = 0;
-while ($i < count($fruits)){
-    echo $fruits[$i]. "\n";
-    $i++;
-}
+// $b = count($fruits);
+// $c = 0;
+// while ($c < $b) {
+//     echo $fruits[$c] . " <br>";
+//     $c++;
+
+// }
+
+print_r($fruits);
+var_dump($fruits);
