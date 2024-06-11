@@ -30,5 +30,14 @@ $z = null;
 
 // }
 
-print_r($fruits);
-var_dump($fruits);
+// print_r($fruits);
+// var_dump($fruits);
+
+$name = "Arafat";
+$age = 27;
+
+echo "My name is " . $name . " and I am " . $age . " years old";
+echo "<br>";
+echo "My name is $name and I am $age Years old";
+echo "<br>";
+echo "My name is {$name} and I am {$age} Years old";
